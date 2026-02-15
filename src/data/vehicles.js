@@ -4,7 +4,7 @@ export const vehicles = [
         name: "Kia Picanto",
         type: "Económico",
         price: 35,
-        image: "public/images/vehicles/kia-picanto.avif",
+        image: "/images/vehicles/kia-picanto.avif",
         description: "Ideal para la ciudad, bajo consumo de combustible y fácil de estacionar.",
         features: ["4 Pasajeros", "Manual", "Aire Acondicionado", "5 Puertas"],
         available: true
