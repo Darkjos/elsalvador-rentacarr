@@ -81,6 +81,7 @@ const QuickSearchSection = () => {
                                 className="w-32 p-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
                                 value={startTime}
                                 onChange={(e) => setStartTime(e.target.value)}
+                                aria-label="Hora de inicio"
                             />
                         </div>
                     </div>
@@ -108,6 +109,7 @@ const QuickSearchSection = () => {
                                 className="w-32 p-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
                                 value={endTime}
                                 onChange={(e) => setEndTime(e.target.value)}
+                                aria-label="Hora de fin"
                             />
                         </div>
                     </div>
@@ -136,4 +138,3 @@ const QuickSearchSection = () => {
 };
 
 export default QuickSearchSection;
-
